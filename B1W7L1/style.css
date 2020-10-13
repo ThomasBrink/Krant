@@ -5,20 +5,19 @@ body{
 .grid-container{
 	display: grid;
 	grid-template-columns: 200px 200px 200px 200px;
-	grid-template-rows: 100px 150px 100px 200px 200px;
-	grid-gap: 5px;
+	grid-template-rows: 100px 150px 300px 150px;
+	grid-gap: 10px;
 
 }
 
-nav{
+img:nth-of-type(){
 	background-color: red;
 	grid-column: 1/5;
 	grid-row: 1/2;
-
 }
 
 header{
-	background-color: pink;
+	background-color: green;
 	grid-column: 1/5;
 	grid-row: 2/3;
 }
@@ -57,9 +56,4 @@ aside{
 	background-color: yellow;
 	grid-column: 4/5;
 	grid-row: 3/5;
-}
-
-img:nth-of-type(1){
-	width: 800px;
-	height: 150px;
 }
