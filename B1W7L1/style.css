@@ -64,6 +64,7 @@ aside{
 	grid-column: 4/5;
 	grid-row: 4/6;
 }
+
 img:nth-of-type(1){
 	width: 800px;
 	height: 150px;
